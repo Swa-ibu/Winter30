@@ -1,0 +1,16 @@
+# Joyent instructions (https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager#debian-and-ubuntu-based-linux-distributions)
+
+# Download from the source
+curl --silent --location https://deb.nodesource.com/setup_0.12 | sudo bash -
+
+# Installing node directly (latest version)
+sudo yum -get install --yes nodejs
+
+# Build tools for npm
+sudo yum -get install --yes build-essential
+
+# Install node-gyp
+#npm install -g node-gyp#!/bin/bash
+# Update package index
+yum update -y
+
