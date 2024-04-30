@@ -17,7 +17,7 @@ sed -i "s|/var/www/html|/var/www/html/public|g"  /etc/httpd/conf/httpd.conf
 sed -i "s|index.html|index.php|g" /etc/httpd/conf/httpd.conf
 
 yum -y install unzip
-cd /var/www/html
+cd /var/www/html/
 wget https://github.com/Swa-ibu/Winter30/archive/refs/heads/main.zip
 unzip Winter30-main.zip
 cd Winter30-main
