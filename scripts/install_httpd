@@ -18,9 +18,9 @@ sed -i "s|index.html|index.php|g" /etc/httpd/conf/httpd.conf
 
 yum -y install unzip
 cd /var/www/html/
-wget https://github.com/Swa-ibu/Winter30/archive/refs/heads/main.zip
+wget https://github.com/Swa-ibu/Mei01/archive/refs/heads/main.zip
 unzip main.zip
-cd Winter30-main 
+cd Mei01-main 
 mv ./* ../
 cd /var/www/html
 chown -R ec2-user:ec2-user /var/www/html
